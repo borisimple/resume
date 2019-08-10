@@ -1,0 +1,22 @@
+{
+	"short_name": "BK - CV",
+	"name": "Boris Krstić - CV",
+	"icons": [
+		{
+			"src": "img/profile.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "img/profile.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "index.html",
+	"background_color": "rgb(248, 248, 248)",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#5774f3",
+	"orientation": "portrait"
+}
