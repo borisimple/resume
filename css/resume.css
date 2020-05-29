@@ -190,3 +190,7 @@ a {
 a:hover, a:focus, a:active {
   color: #113aed;
 }
+
+p.project-desc {
+  font-size: 12px;
+}
