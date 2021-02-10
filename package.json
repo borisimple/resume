@@ -30,10 +30,10 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "5.9.0",
 		"bootstrap": "4.3.1",
-		"jquery": ">=3.5.1",
-		"jquery.easing": ">=1.4.1",
 		"eslint-utils": ">=1.4.1",
 		"http-proxy": ">=1.18.1",
+		"jquery": ">=3.5.1",
+		"jquery.easing": ">=1.4.1",
 		"yargs-parser": ">=13.1.2"
 	},
 	"devDependencies": {
