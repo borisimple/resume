@@ -1,52 +1,61 @@
 {
-	"title": "Resume - Boris Krstic",
-	"name": "startbootstrap-resume-boriskrstic",
-	"version": "5.0.7",
-	"scripts": {
-		"start": "node_modules/.bin/gulp watch"
-	},
-	"description": "Boris Krstic Resume created with Bootstrap 4.",
-	"keywords": [
-		"css",
-		"sass",
-		"html",
-		"responsive",
-		"theme",
-		"template",
-		"Boris Krstic Resume",
-		"Boris Krstic CV"
-	],
-	"homepage": "https://borisimple.github.io/resume/",
-	"bugs": {
-		"url": "https://borisimple.github.io/resume/",
-		"email": "borisimple@gmail.com"
-	},
-	"license": "MIT",
-	"author": "Boris Krstic",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/borisimple/resume"
-	},
-	"dependencies": {
-		"@fortawesome/fontawesome-free": "5.9.0",
-		"bootstrap": "4.3.1",
-		"eslint-utils": ">=1.4.1",
-		"http-proxy": ">=1.18.1",
-		"jquery": ">=3.5.1",
-		"jquery.easing": ">=1.4.1",
-		"yargs-parser": ">=13.1.2"
-	},
-	"devDependencies": {
-		"browser-sync": "^2.26.12",
-		"del": "4.1.1",
-		"gulp": "4.0.2",
-		"gulp-autoprefixer": "6.1.0",
-		"gulp-clean-css": "4.2.0",
-		"gulp-header": "2.0.7",
-		"gulp-plumber": ">=1.2.1",
-		"gulp-rename": "1.4.0",
-		"gulp-sass": "4.0.2",
-		"gulp-uglify": "3.0.2",
-		"merge-stream": "2.0.0"
-	}
+  "title": "Resume - Boris Krstic",
+  "name": "startbootstrap-resume-boriskrstic",
+  "version": "5.0.7",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "Boris Krstic Resume created with Bootstrap 4.",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template",
+    "Boris Krstic Resume",
+    "Boris Krstic CV"
+  ],
+  "homepage": "https://borisimple.github.io/resume/",
+  "bugs": {
+    "url": "https://borisimple.github.io/resume/",
+    "email": "borisimple@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Boris Krstic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borisimple/resume"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "bootstrap": "4.3.1",
+    "eslint-utils": ">=1.4.1",
+    "http-proxy": ">=1.18.1",
+    "jquery": ">=3.5.1",
+    "jquery.easing": ">=1.4.1",
+    "yargs-parser": ">=13.1.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "4.1.1",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": ">=1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0",
+    "glob-parent": ">=5.1.2",
+    "trim-newlines": ">=3.0.1",
+    "browserslist": ">=4.16.5",
+    "postcss": ">=8.2.10",
+    "hosted-git-info": ">=2.8.9",
+    "lodash": ">=4.17.21",
+    "ua-parser-js": ">=0.7.24",
+    "xmlhttprequest-ssl": ">=1.6.2",
+    "y18n": ">=3.2.2"
+  }
 }
