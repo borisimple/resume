@@ -47,15 +47,6 @@
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
     "gulp-uglify": "3.0.2",
-    "merge-stream": "2.0.0",
-    "glob-parent": ">=5.1.2",
-    "trim-newlines": ">=3.0.1",
-    "browserslist": ">=4.16.5",
-    "postcss": ">=8.2.10",
-    "hosted-git-info": ">=2.8.9",
-    "lodash": ">=4.17.21",
-    "ua-parser-js": ">=0.7.24",
-    "xmlhttprequest-ssl": ">=1.6.2",
-    "y18n": ">=3.2.2"
+    "merge-stream": "2.0.0"
   }
 }
