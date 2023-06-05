@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="theme-color" content="#5774f3" />
-  <meta name="description" content="Boris Krstic Resume * CV" />
-  <meta name="author" content="Boris Krstic" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#5774f3" />
+    <meta name="description" content="Boris Krstic Resume * CV" />
+    <meta name="author" content="Boris Krstic" />
 
-  <title>Resume - Boris Krstić</title>
+    <title>Resume - Boris Krstić</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet" />
 
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" href="img/profile.jpg" type="image/x-icon" />
-  <link rel="apple-touch-icon" sizes="192x192" href="img/profile.jpg" />
-</head>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="img/profile.jpg" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="192x192" href="img/profile.jpg" />
+  </head>
 
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -58,6 +58,8 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
+        <button class="btn btn-primary btn-print" onclick="printPageToPdf()">Print as PDF</button>
+
       </ul>
     </div>
   </nav>
@@ -255,53 +257,33 @@
           </li>
           <li>
             <i class="fa-li fab fa-react"></i>
-            <a>Website - Artifex Pro - Bemanning</a>
+            Website - Artifex Pro - Bemanning
             <p class="project-desc">Recruitment agency.</p>
           </li>
           <li>
             <i class="fa-li fab fa-react"></i>
-            <a>Website - Artifex Pro - Bygg</a>
-            <p class="project-desc">Complete supplier of handicraft services and contracts in both rehabilitation and
-              renovation of property.</p>
+            Website - Artifex Pro - Bygg
+            <p class="project-desc">Complete supplier of handicraft services and contracts in both rehabilitation and renovation of property.</p>
           </li>
           <li>
             <i class="fa-li fab fa-html5"></i>
-            <a>Website - Active Transport</a>
+            Website - Active Transport
             <p class="project-desc">Transport and delivery services company from Serbia.</p>
           </li>
           <li>
             <i class="fa-li fab fa-microsoft"></i>
-            <a>PowerApps - Customer
-              registration for Dynamics NAV</a>
-            <p class="project-desc">iPad application which simplifies proccess of customer registration.</p>
+            PowerApps - Customer registration for Dynamics NAV
+            <p class="project-desc">iPad application which simplifies the process of customer registration.</p>
           </li>
           <li>
             <i class="fa-li fab fa-microsoft"></i>
-            <a>PowerApps - Collection Orders
-              for Business Central</a>
-            <p class="project-desc">Mobile application showing overview of collection orders.</p>
+            PowerApps - Collection Orders for Business Central
+            <p class="project-desc">Mobile application showing an overview of collection orders.</p>
           </li>
           <li>
             <i class="fa-li fab fa-microsoft"></i>
-            <a>PowerApps - Functional Test for
-              Business Central</a>
-            <p class="project-desc">iPad application used for testing and reporting of issues regarding returned rental
-              equipment.</p>
-          </li>
-          <li>
-            <i class="fa-li fab fa-node"></i>
-            <a href="https://github.com/borisimple/personal-telegram-bot" target="_blank">Scripts - Personal Telegram
-              Bot</a>
-            <p class="project-desc">Simple bot which will get my portfolio value from cryptopanic API.</p>
-          </li>
-          <!-- <li>
-              <i class="fa-li fab fa-react"></i>
-							<a>Cryptocurrency Portfolio - in progress</a>
-            </li> -->
-          <li>
-            <i class="fa-li fab fa-python"></i>
-            <a>Scripts - Ethereum miner</a>
-            <p class="project-desc">Set of scripts which generate ether cryptocurrency.</p>
+            PowerApps - Functional Test for Business Central
+            <p class="project-desc">iPad application used for testing and reporting of issues regarding returned rental equipment.</p>
           </li>
           <li>
             <i class="fa-li fab fa-python"></i>
@@ -428,29 +410,32 @@
         </p>
       </div>
     </section>
-  </div>
+    </div>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("service-worker.js")
+            .then(registration => {
+              console.log("Service Worker is registered", registration);
+            })
+            .catch(err => console.error("SW registration failed", err));
+        });
+      }
+      function printPageToPdf() {
+  window.print();
+}
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker
-          .register("service-worker.js")
-          .then(registration => {
-            console.log("Service Worker is registered", registration);
-          })
-          .catch(err => console.err("SW registration failed", err));
-      });
-    }
-  </script>
-</body>
-
+    </script>
+    </body>
 </html>
