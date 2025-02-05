@@ -35,7 +35,7 @@
     "http-proxy": ">=1.18.1",
     "jquery": ">=3.5.1",
     "jquery.easing": ">=1.4.1",
-    "node-sass": "^9.0.0",
+    "sass": "^1.83.4",
     "yargs-parser": ">=13.1.2"
   },
   "devDependencies": {
