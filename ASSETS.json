@@ -1,0 +1,45 @@
+{
+  "source": "https://borisk.framer.website/",
+  "captured": "2026-10-23",
+  "files": {
+    "images/dnb.jpg": "https://framerusercontent.com/images/9vx4IPaqNdOGfceX28lWeXsFg.jpg",
+    "images/helsedata.jpg": "https://framerusercontent.com/images/q7kmdPerioWAT3tY1C2p8Yc9Zds.jpg",
+    "images/photos.jpg": "https://framerusercontent.com/images/pLDVZ7UrFB9QeSJRdH2lCC0vwEQ.jpg",
+    "images/max.jpg": "https://framerusercontent.com/images/KVHAFpbT6Ia76yCui63m6gimwJ8.jpg",
+    "images/battleship.jpg": "https://framerusercontent.com/images/bza9DByLz7Exy9I2DdTAm54N30.jpg",
+    "fonts/geist-latin.woff2": "https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwcGFU.woff2",
+    "fonts/geist-latin-ext.woff2": "https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwSGFWfOw.woff2",
+    "fonts/satoshi-bold.woff2": "https://framerusercontent.com/third-party-assets/fontshare/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2"
+  },
+  "logos": "SVG paths extracted from source site CSS",
+  "sha256": {
+    "fonts/geist-latin-ext.woff2": "824f485b5d26e2f2da3c2b236132ece1bc8e4e43373452950bb0e40548b4313f",
+    "fonts/geist-latin.woff2": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1",
+    "fonts/satoshi-bold.woff2": "353a7fbfb4475f0c31470a7449226006cb64211c71055ca9db860a8acdaa9f68",
+    "images/battleship.jpg": "20616e1eacb5e93a638e2bccf764009b13c4856e1cf07d9a608211547eeec696",
+    "images/dnb.jpg": "e2dab529fb3291d21c77054f0d30b700c4f2272091077fc88b9b6c3fd06a7cbf",
+    "images/helsedata.jpg": "b236d558818668ed719b8cb53c2d59180a73986383ed1002a1a6f4a75bfe7b0b",
+    "images/max.jpg": "0190dbe5d39b1b29b48ab113535ece656988d1466b72bec461124e07bf792f94",
+    "images/photos.jpg": "f8dc3c9cec0209fd6c2600dbaba2c34c431925c46394294a9f10cbd9859112e0",
+    "licenses/Geist-OFL.txt": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+    "logos/flickr.svg": "c5b20a0791a6f4878ec02fe65d2875163fbb4099cd2b0914321986e6244ce3eb",
+    "logos/linkedin.svg": "96e6aa651e789d609ed544deb56bb40ed85487e871e3a12c1cd1669ac5d0c692",
+    "logos/microsoft.svg": "c416b1f4b57fd01e4ef19dc54b50da9ff0743ef41d9cdd5b1513fb63d9acf3d0",
+    "logos/pexels.svg": "5ea1a5e1431f878b5361fb7836506096906586334ce21c1a150186fae37e6976"
+  },
+  "bytes": {
+    "fonts/geist-latin-ext.woff2": 16512,
+    "fonts/geist-latin.woff2": 29400,
+    "fonts/satoshi-bold.woff2": 25328,
+    "images/battleship.jpg": 102415,
+    "images/dnb.jpg": 409681,
+    "images/helsedata.jpg": 143712,
+    "images/max.jpg": 512499,
+    "images/photos.jpg": 304628,
+    "licenses/Geist-OFL.txt": 4387,
+    "logos/flickr.svg": 646,
+    "logos/linkedin.svg": 892,
+    "logos/microsoft.svg": 374,
+    "logos/pexels.svg": 564
+  }
+}

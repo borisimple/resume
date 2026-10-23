@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Portfolio viewport check</title>
+<style>body{margin:0;background:#dfe3df;font:12px system-ui}label{display:block;padding:8px}iframe{display:block;border:0;margin:auto;background:#f7f7f3;max-width:none}</style>
+<label>Viewport <select id="width"><option>320</option><option>390</option><option>734</option><option>810</option><option>1024</option><option>1280</option><option>1440</option></select> px</label>
+<iframe id="preview" title="Portfolio preview" src="../" height="960"></iframe>
+<script>
+  const select = document.querySelector('select');
+  const frame = document.querySelector('iframe');
+  select.value = new URLSearchParams(location.search).get('width') || '390';
+  function resize() { frame.style.width = select.value + 'px'; }
+  // Read-only diagnostics for manual checks in a browser without viewport emulation.
+  frame.addEventListener('load', () => {
+    const report = document.createElement('pre'); report.id = 'report'; report.setAttribute('aria-hidden','true'); document.body.append(report);
+    const measure = () => {
+      const d = frame.contentDocument, w = frame.contentWindow;
+      const rects = selector => [...d.querySelectorAll(selector)].map(e => ({x:e.getBoundingClientRect().x,y:e.getBoundingClientRect().y,width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height,bottom:e.getBoundingClientRect().bottom}));
+      report.textContent = JSON.stringify({width:w.innerWidth,scrollWidth:d.documentElement.scrollWidth,cards:rects('.project-card'),socials:rects('.social-card'),images:[...d.images].map(i=>({src:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0})),sections:rects('.intro,.work,.experience,.highlights,.about,.toolbox,.contact')});
+    };
+    new ResizeObserver(measure).observe(frame.contentDocument.documentElement);
+    frame.contentDocument.addEventListener('load', measure, true);
+    frame.contentDocument.fonts.ready.then(measure);
+    frame.contentWindow.addEventListener('resize', measure); measure();
+  });
+  select.addEventListener('change', resize); resize();
+</script></html>

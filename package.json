@@ -1,54 +1,30 @@
 {
-  "title": "Resume - Boris Krstic",
-  "name": "startbootstrap-resume-boriskrstic",
-  "version": "5.0.7",
+  "name": "boris-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "start": "node_modules/.bin/gulp watch"
-  },
-  "description": "Boris Krstic Resume created with Bootstrap 4.",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template",
-    "Boris Krstic Resume",
-    "Boris Krstic CV"
-  ],
-  "homepage": "https://borisimple.github.io/resume/",
-  "bugs": {
-    "url": "https://borisimple.github.io/resume/",
-    "email": "borisimple@gmail.com"
-  },
-  "license": "MIT",
-  "author": "Boris Krstic",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/borisimple/resume"
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:e2e": "playwright test",
+    "test": "node --test tests/service-worker.test.mjs"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.9.0",
-    "bootstrap": "4.3.1",
-    "eslint-utils": ">=1.4.1",
-    "gulp-sass": "^5.1.0",
-    "http-proxy": ">=1.18.1",
-    "jquery": ">=3.5.1",
-    "jquery.easing": ">=1.4.1",
-    "sass": "^1.83.4",
-    "yargs-parser": ">=13.1.2"
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.29.1",
-    "del": "4.1.1",
-    "gulp": "4.0.2",
-    "gulp-autoprefixer": "10.0.0",
-    "gulp-clean-css": "4.2.0",
-    "gulp-dart-sass": "1.1.0",
-    "gulp-header": "2.0.7",
-    "gulp-plumber": ">=1.2.1",
-    "gulp-rename": "1.4.0",
-    "gulp-uglify": "3.0.2",
-    "merge-stream": "2.0.0"
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
   }
 }

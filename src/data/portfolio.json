@@ -1,0 +1,175 @@
+{
+  "intro": "I’m a full-stack developer based in Oslo, building reliable, accessible digital products across web platforms and business systems. I enjoy turning complicated requirements into elegant interfaces, useful features, and software people can depend on. I also enjoy sparring with AI agents — although they’re still terrible at making coffee.",
+  "workIntro": "A selection of client work, public-sector products, and independent experiments — from complex services to small tools made with care.",
+  "projects": [
+    {
+      "id": "dnb",
+      "link": "https://www.dnb.no/kort/barn",
+      "title": "DNB · Children’s Card",
+      "description": "Frontend development for DNB’s children’s debit card ordering journey. I worked on the customer-facing, step-by-step process helping parents request a card for their child, with a focus on clear interactions and usability.",
+      "kind": "screenshot",
+      "image": "assets/images/dnb.jpg"
+    },
+    {
+      "id": "helsedata",
+      "link": "https://helsedata.no/",
+      "title": "Helsedata.no",
+      "description": "A public-sector service making Norwegian health data easier to find, understand, and request. I worked on frontend architecture, accessibility, complex form workflows, and a clearer experience for researchers.",
+      "kind": "screenshot",
+      "image": "assets/images/helsedata.jpg"
+    },
+    {
+      "id": "nortura",
+      "link": "https://www.capgemini.com/news/client-stories/nortura-modernizes-health-and-safety-reporting/",
+      "title": "Nortura · Livestock Arrival & Welfare",
+      "description": "Worked on an internal Power Apps solution for registering and checking livestock arriving at slaughterhouses. Staff could record arrivals, document animal condition, and flag injuries or other welfare concerns through a structured digital workflow.",
+      "kind": "nortura",
+      "period": "CAPGEMINI CLIENT ENGAGEMENT   ·   NOV 2024 – FEB 2025",
+      "relatedLabel": "RELATED CLIENT STORY · SEPARATE PROJECT",
+      "relatedDescription": "Capgemini and Nortura also rolled out a separate ServiceNow Health & Safety reporting platform across 31 factories, with mobile incident reporting and real-time dashboards (live November 2025)."
+    },
+    {
+      "id": "max",
+      "link": "https://www.maxbyggservice.no/",
+      "title": "Max Byggservice",
+      "description": "A modern website for a Norwegian renovation company. The experience highlights completed work, explains services clearly, and helps potential customers request a consultation with less friction.",
+      "kind": "screenshot",
+      "image": "assets/images/max.jpg"
+    },
+    {
+      "id": "power-apps",
+      "link": null,
+      "title": "Power Apps · Business Solutions",
+      "description": "Three practical iPad and mobile apps built around Dynamics NAV and Business Central — from customer onboarding to order overviews and rental-equipment testing.",
+      "kind": "power-apps"
+    },
+    {
+      "id": "armada",
+      "link": null,
+      "title": "Armada Dynamics · Partner Portal",
+      "description": "Built a partner-facing web portal with login, downloadable EQM Rental add-ins, region-specific price lists, documentation, and a user administration panel. Developed with HTML, CSS, JavaScript, and Firebase Hosting.",
+      "kind": "armada"
+    },
+    {
+      "id": "photos",
+      "link": "https://borisk.photos/",
+      "title": "borisk.photos",
+      "description": "My photography portfolio and editorial journal, where I publish personal projects, photo essays, camera reviews, and reflections on shooting digital and film. Built to keep the photographs in focus.",
+      "kind": "screenshot",
+      "image": "assets/images/photos.jpg"
+    },
+    {
+      "id": "battleship",
+      "link": "https://battleshipboards.com/",
+      "title": "Battleship Boards",
+      "description": "A lightweight web app for generating printable Battleship game sheets, with randomized fleets, single or batch generation, and a clean A4 print layout that makes offline play easy.",
+      "kind": "screenshot",
+      "image": "assets/images/battleship.jpg"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025 — NOW",
+      "company": "Oseberg Solutions",
+      "role": "Senior System Developer",
+      "description": "Developing and customizing Microsoft Dynamics 365 Business Central solutions, focusing on retail and warehouse workflows, AL extensions, integrations, automation, and improving everyday business processes."
+    },
+    {
+      "period": "2021 — 2025",
+      "company": "Capgemini",
+      "role": "Full-stack developer",
+      "description": "Built accessible and scalable web applications across frontend and backend, using React, TypeScript, .NET, Optimizely, and Azure. Worked with complex public-sector services, UI architecture, and delivery through modern DevOps practices."
+    },
+    {
+      "period": "2016 — 2021",
+      "company": "Armada Dynamics",
+      "role": "Software Developer · Delivery Architect · Power Apps Developer",
+      "description": "Customized Business Central and Dynamics NAV for customers, creating extensions, APIs, integrations, and Power Apps. Introduced Azure DevOps and CI/CD practices and helped automate business workflows."
+    },
+    {
+      "period": "MAR — AUG 2016",
+      "company": "3Dprintler Inc.",
+      "role": "Meteor.js Developer · Canada",
+      "description": "Developed a full-stack price-comparison application for 3D-printing services using Meteor.js, Blaze, and MongoDB. Built reactive user dashboard components, implemented database operations, and improved responsive layouts with Bootstrap."
+    }
+  ],
+  "highlights": [
+    {
+      "label": "01  /  SOFTWARE DELIVERY",
+      "title": "Architecture & delivery",
+      "description": "As a Delivery Architect at Armada Dynamics, I worked with Azure DevOps pipelines, on-premises environments, and Docker-based workflows supporting developers and testers."
+    },
+    {
+      "label": "02  /  ENGINEERING QUALITY",
+      "title": "Test-driven development",
+      "description": "Introduced TDD practices and helped build an automated testing framework during the transition from Dynamics NAV to Business Central."
+    },
+    {
+      "label": "03  /  PUBLIC-SECTOR ENGINEERING",
+      "title": "Accessibility & security",
+      "description": "Built React and TypeScript interfaces for Helsedata, with WCAG 2.1 testing using axe DevTools and Accessibility Insights, alongside secure service integrations."
+    },
+    {
+      "label": "04  /  REAL-WORLD SYSTEMS",
+      "title": "Enterprise integrations",
+      "description": "Delivered Brønnøysundregistrene-based customer registration integrations and UCO rental workflows involving camera-detected returns, Power Apps notifications, inspections, and repair photos."
+    }
+  ],
+  "highlightsIntro": "Across enterprise systems and public services, I’ve worked on the architecture, quality, accessibility, and integrations that make software dependable.",
+  "certifications": [
+    {
+      "tag": "AZ-900",
+      "name": "Microsoft Azure Fundamentals",
+      "source": "Microsoft certified · Jan 2022"
+    },
+    {
+      "tag": "PL-900",
+      "name": "Microsoft Power Platform Fundamentals",
+      "source": "Microsoft certified · Feb 2022"
+    },
+    {
+      "tag": "GEN AI",
+      "name": "GenAI for Front-End Developers",
+      "source": "Coursera · Mar 2025"
+    }
+  ],
+  "about": [
+    "04 / ABOUT",
+    "Beyond the code.",
+    "I’m a software developer in Oslo with experience spanning frontend engineering, enterprise systems, and consulting. I’m happiest when I can take a complex problem from an early idea to a polished, reliable product — whether that means designing an intuitive user journey, building React components, or connecting the systems behind the scenes.",
+    "Outside work, photography is a big part of my life. Shooting street scenes, architecture, and film has taught me to look closely at composition, light, and the details that make something memorable. That curiosity carries into the way I build software."
+  ],
+  "socials": [
+    {
+      "id": "linkedin",
+      "url": "https://www.linkedin.com/in/boriskrstic/",
+      "label": "PROFESSIONAL",
+      "name": "LinkedIn",
+      "description": "Software development, experience & professional connections."
+    },
+    {
+      "id": "flickr",
+      "url": "https://www.flickr.com/photos/krkojzla/",
+      "label": "PHOTOGRAPHY",
+      "name": "Flickr",
+      "description": "Street photography, architecture & personal photo projects."
+    },
+    {
+      "id": "pexels",
+      "url": "https://www.pexels.com/@borisk/",
+      "label": "FREE PHOTOS",
+      "name": "Pexels",
+      "description": "My photos available to download and use for free."
+    }
+  ],
+  "toolbox": [
+    "05 / TOOLBOX",
+    "Frontend to infrastructure.",
+    "React · TypeScript · JavaScript · C# · .NET · AL · Dynamics 365 Business Central · Azure · Azure DevOps · Git · APIs · Accessible design"
+  ],
+  "contact": [
+    "06 / SAY HELLO",
+    "Have something in mind? Let’s talk.",
+    "Open to interesting ideas, collaborations, and thoughtful conversations."
+  ]
+}
