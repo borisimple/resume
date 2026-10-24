@@ -1,10 +1,12 @@
 import { useCallback, useState } from 'react'
 import portfolio from './data/portfolio.json'
+import useReveal from './hooks/useReveal'
 import Masonry from './components/Masonry'
 import PowerAppsModal from './components/PowerAppsModal'
 import ProjectCard, { asset } from './components/ProjectCard'
 
 export default function App() {
+  useReveal()
   const [showPowerApps, setShowPowerApps] = useState(false)
   const closeModal = useCallback(() => setShowPowerApps(false), [])
 

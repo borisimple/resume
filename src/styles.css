@@ -201,6 +201,19 @@ h1 { font-size: 64px; line-height: 1.09; letter-spacing: -.045em; }
   .power-modal h2 { font-size: 24px; }
   .modal-header { gap: 8px; align-items: flex-start; }
 }
+/* Small, one-time entrances; translate leaves layout measurements unchanged. */
+.reveal { opacity: 0; translate: 0 14px; transition: opacity 650ms cubic-bezier(.22, 1, .36, 1), translate 650ms cubic-bezier(.22, 1, .36, 1); }
+.reveal.is-visible { opacity: 1; translate: 0 0; }
+.intro > .reveal:nth-child(2) { transition-delay: 70ms; }
+.intro > .reveal:nth-child(3) { transition-delay: 140ms; }
+.project-card, .highlight-card, .social-card { transition: transform 350ms cubic-bezier(.22, 1, .36, 1), box-shadow 350ms ease; }
+.social-card.reveal, .highlight-card.reveal { transition: opacity 650ms ease, translate 650ms cubic-bezier(.22, 1, .36, 1), transform 350ms ease, box-shadow 350ms ease; }
+.power-modal[open] { animation: modal-enter 320ms cubic-bezier(.22, 1, .36, 1); }
+.power-modal[open]::backdrop { animation: backdrop-enter 320ms ease; }
+.modal-close { transition: background 200ms ease; }
+@keyframes modal-enter { from { opacity: 0; transform: translateY(10px) scale(.99); } to { opacity: 1; transform: none; } }
+@keyframes backdrop-enter { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; translate: none; }
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
